@@ -52,7 +52,7 @@ const Header: React.FC = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
-            <img src='/public/logo_cdc.png' className={clsx(
+            <img src='/logo_cdc.png' className={clsx(
               'h-16 w-16',
               isScrolled ? 'text-ajcdc-primary' : 'text-white'
             )} />
